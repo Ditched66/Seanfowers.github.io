@@ -6,5 +6,7 @@ body {
     border-top: solid 1px;
     border-left: solid 1px;
     border-radius: 5px;
-    border-color: #ffd700;
+    border-color: #ca9e0c;
+    max-width: fit-content;
+    max-height: fit-content;
 }
