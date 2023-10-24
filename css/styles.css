@@ -14,10 +14,6 @@ body {
     margin-top: 20%;
 }
 .details-container {
-    border-top: solid 3px;
-    border-left: solid 3px;
-    border-top-left-radius: 5px;
-    border-color: #9b7700;
     padding: 10px;
 }
 .details {
@@ -31,7 +27,7 @@ body {
     border-top: solid 3px;
     border-left: solid 3px;
     border-top-left-radius: 5px;
-    border-color: #9b7700;
+    border-color: white;
     max-width: 40vw;
     max-height: fit-content;
     padding: 10px;
@@ -39,7 +35,7 @@ body {
 }
 .title-container:hover {
     transition: 0.3s;
-    background-color: #1a3558;
+    border: 1px white solid;
     box-shadow: 5px 5px #0e131a;
     border-radius: 5px;
 }
@@ -47,7 +43,7 @@ body {
     border-top: solid 3px;
     border-left: solid 3px;
     border-top-left-radius: 5px;
-    border-color: #9b7700;
+    border-color: white;
     padding: 10px;
     max-width: 30vw;
     max-height: 40vh;
@@ -64,7 +60,7 @@ body {
 }
 .portfolio-item:hover {
     transition: 0.3s;
-    background-color: #1a3558;
+    border: 1px white solid;
     box-shadow: 5px 5px #0e131a;
     border-radius: 5px;
 }
