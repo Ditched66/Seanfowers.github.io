@@ -1,10 +1,22 @@
-body {
-    background: rgb(12,63,131);
-    background: linear-gradient(0deg, rgba(12,63,131,1) 0%, rgba(12,15,19,1) 100%); 
-    color: white;
-    
-    height: 100vh;
+/* SMALL SCREEN */
+@media screen and (min-width: 40em){ 
+    body {
+        background: rgb(12,63,131);
+        background: linear-gradient(0deg, rgba(12,63,131,1) 0%, rgba(12,15,19,1) 100%); 
+        color: white;
+        height: 100vh;
+    }
 }
+/* BIG SCREEN */
+@media screen and (min-width: 64em){
+    body {
+        background: rgb(12,63,131);
+        background: linear-gradient(0deg, rgba(12,63,131,1) 0%, rgba(12,15,19,1) 100%); 
+        color: white;
+        height: 100vh;
+    }
+}
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -68,7 +80,7 @@ body {
     border-left: solid 3px;
     border-top-left-radius: 5px;
     border-color: white;
-    max-width: 40vw;
+    max-width: 50vw;
     max-height: fit-content;
     padding: 10px;
     transition: 0.3s;
