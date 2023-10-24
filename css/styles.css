@@ -1,9 +1,17 @@
 body {
-    background-color: rgb(12, 15, 19);
+    background: rgb(12,63,131);
+    background: linear-gradient(0deg, rgba(12,63,131,1) 0%, rgba(12,15,19,1) 100%); 
     color: white;
+    
+    height: 100vh;
+}
+.content-container {
     display: flex;
     flex-direction: row;
+    align-self: center;
+    align-items: flex-start;
     justify-content: space-evenly;
+    margin-top: 20%;
 }
 .details-container {
     border-top: solid 3px;
@@ -24,15 +32,15 @@ body {
     border-left: solid 3px;
     border-top-left-radius: 5px;
     border-color: #9b7700;
-    max-width: fit-content;
+    max-width: 40vw;
     max-height: fit-content;
     padding: 10px;
     transition: 0.3s;
 }
 .title-container:hover {
     transition: 0.3s;
-    background-color: rgb(22, 28, 36);
-    box-shadow: 5px 5px rgb(2, 3, 3);
+    background-color: #1a3558;
+    box-shadow: 5px 5px #0e131a;
     border-radius: 5px;
 }
 .portfolio-container {
@@ -41,16 +49,32 @@ body {
     border-top-left-radius: 5px;
     border-color: #9b7700;
     padding: 10px;
-    max-width: fit-content;
-    max-height: fit-content;
+    max-width: 30vw;
+    max-height: 40vh;
+    overflow:auto;
+    scrollbar-color: #142d4b rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
 }
 .portfolio-item {
     padding: 10px;
     transition: 0.3s;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 .portfolio-item:hover {
     transition: 0.3s;
-    background-color: rgb(22, 28, 36);
-    box-shadow: 5px 5px rgb(2, 3, 3);
+    background-color: #1a3558;
+    box-shadow: 5px 5px #0e131a;
     border-radius: 5px;
+}
+h1 {
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 5vw;
+}
+a {
+    padding: 10px;
+    max-width: 20px;
+    max-height: 20px;
 }
